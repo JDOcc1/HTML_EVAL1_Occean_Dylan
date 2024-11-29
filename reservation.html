@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="croiseur">
+    <h2> Resevation du Client</h2>
+  
+    <div>
+       <label for="Civilité">Civilité :</label> 
+       <select name="Civilité" id="Civilité">
+            <option value="--Choisissez--">--Choisissez--</option>
+            <option value="Mr">Mr</option>
+            <option value="Mme">Mme</option>
+        </div>
+<br>
+    <div>   
+        <label for="nom">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+<br>
+    <div>
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="user_prenom">
+    </div>
+<br>
+    <div>
+        <label for="phone">Telephone :</label>
+        <input type="tel" id="tel" name="tel">
+    </div>
+    <br>
+    <div>
+        <label for="birth">Date de naissance</label>
+        <input type="date" id="birth" name="user_birth">
+    </div>
+<br>
+
+    <h2>Details du Voyage</h2>
+<br>
+        <div>
+            <label for="destinations">Destination :</label> 
+             <select name="Destination" id="Destination">
+                    <option value="Paris">Paris</option>
+                    <option value="New York">New York</option>
+                    <option value="Japon">Japon</option>
+        </div>
+<br>
+        <div>
+            <label for="Arrivals">Date de départ</label>
+            <input type="date" id="arrivals">
+        </div>
+<br>
+        <div>
+            <label for="Nombre de jour">Nombre de Jour</label>
+            <input type="number" id="quantity" name="quantity" value="1" min="1" max="999999">
+        </div>
+<br>
+        <div>
+            <label for="type de voyage">Type de voyage :</label>
+            <input type="hidden" id="type de voyage">
+        </div>
+<br>
+        <div>
+            <input type="radio" name="Solo">
+                 Solo
+            <input type="radio" name="Couple">
+                Couple
+            <input type="radio" name="Famille">
+                Famille
+        </div> 
+<br>
+        <div>
+            <input type="checkbox" name="assurance">
+                Je souhaite souscrire une assurance voyage
+        </div>
+        <h2>Validation</h2>
+
+        <input type="checkbox" name="Validation">
+            J'accepte les conditons générales
+<br>      
+    </form>         
+            <button type="submit">Réserver</button>
+
+            <button type="reset">Reinitialiser</button Enable>
+        </div>
+<br>
+<br>
+<p>extra par pur plaisir</p>       
+<a href="Comfirmation.html">Reserver et payer</a>
+    
+</body>
+</html>
